@@ -56,7 +56,7 @@ VALUES
 * Alternatively you can run the application from command line
   ``` Navigate to the folder where you have unziper the source
       Open a terminal and run these commands:
-      mvn clean;package
+      mvn clean;mvn package
       mvn install
       java -jar target/demoLogger-0.0.1-SNAPSHOT.jar
       mvn spring-boot:run
@@ -67,7 +67,7 @@ VALUES
 
 ### Usage
 
-In order to see this application in action we provides a REST service where is used the log functionality
+In order to see this application in action we provide a REST service where is used the log functionality
 Open a browser and paste these endpoints:
 http://localhost:8099/person?id=-1   ->should print a warning in console
 http://localhost:8099/person?id=1   ->should not print anything
