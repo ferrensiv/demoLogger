@@ -95,12 +95,4 @@ public class JobLogger {
     }
 
 
-    public static  void main(String args[]){
-
-        String x= null;
-        x= x+"algo";
-        System.out.println(x);
-
-
-    }
 }
